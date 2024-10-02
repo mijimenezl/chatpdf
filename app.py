@@ -17,11 +17,11 @@ import platform
 #from pathlib import Path
 
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
-image = Image.open('Chat_pdf.png')
+image = Image.open('pdf.png')
 st.write("Versión de Python:", platform.python_version())
 st.image(image, width=350)
 with st.sidebar:
-   st.subheader("Este Agente, te ayudará a realizar algo de análisis sobre el PDF cargado")
+   st.subheader("Nicki Minaj te ayudará a realizar un análisis sobre el PDF cargado")
 ke = st.text_input('Ingresa tu Clave')
 #os.environ['OPENAI_API_KEY'] = st.secrets['OPENAI_API_KEY']
 os.environ['OPENAI_API_KEY'] = ke
