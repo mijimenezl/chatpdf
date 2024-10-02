@@ -19,7 +19,7 @@ import platform
 st.title('Generación Aumentada por Recuperación (RAG) 💬')
 image = Image.open('nicki.jpg')
 st.write("Versión de Python:", platform.python_version())
-st.image(image, width=350)
+st.image(image, width=500)
 with st.sidebar:
    st.subheader("Nicki Minaj te ayudará a realizar un análisis sobre el PDF cargado")
 ke = st.text_input('Ingresa tu Clave')
